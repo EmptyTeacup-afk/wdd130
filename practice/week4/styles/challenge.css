@@ -1,0 +1,44 @@
+body {
+    background-color: lightskyblue;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+main p {
+    color: white;
+    text-align: center;
+}
+
+.quote1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.list {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    list-style-position: inside;
+     margin: 0 auto;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    size:  2%;
+}
+
+.quote2 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+footer {
+    text-align: center;
+}

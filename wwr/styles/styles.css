@@ -1,0 +1,91 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    
+}
+
+nav a {
+    text-align: center;
+    background-color: #006d77;
+    color: #E29578;
+    text-decoration: none;
+}
+
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color:  #83C5BE;
+}
+
+body {
+    background-color: #fcfbfb;
+}
+
+header {
+    background-color:#006d77;
+}
+
+nav a:hover {
+    background-color: #FFDDD2;
+}
+
+.home-title{
+    color: #006d77;
+}
+
+h4 {
+    color: #006d77;
+}
+
+.book, .join {
+   color: #E29578;
+   text-decoration: none;
+}
+.msg h2 {
+    color: #006d77;
+}
+
+.msg p {
+    color:#83C5BE;
+}
+
+footer {
+    color: #E29578;
+    background-color: #006d77;
+}
+
+footer a {
+    color: #E29578;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.5em;
+}
+
+footer a:hover {
+    background-color: #FFDDD2;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
