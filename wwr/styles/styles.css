@@ -12,17 +12,47 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 nav a {
     text-align: center;
     background-color: #006d77;
     color: #E29578;
     text-decoration: none;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #FFDDD2;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
 }
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+    color: #E29578;
 }
 
 .button-box{
@@ -47,10 +77,6 @@ body {
 
 header {
     background-color:#006d77;
-}
-
-nav a:hover {
-    background-color: #FFDDD2;
 }
 
 .home-title{
@@ -138,6 +164,8 @@ h2 {
 
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 .card-img{
