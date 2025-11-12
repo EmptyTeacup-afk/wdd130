@@ -269,4 +269,80 @@ main section img {
         margin-top: 25px;
     }
 }
-            
+
+/*
+FAQ page styling 
+*/
+
+    #hero-FAQ{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+
+    #hero-box-FAQ {
+        grid-column: 1/4;
+        grid-row: 1/2;
+        z-index: -1;
+    }
+
+    #hero-msg-FAQ {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #hero-img-FAQ {
+        width: 100%;
+    }
+    
+
+    #hero-msg-FAQ h1 {
+        text-align: center;
+        justify-content: center;
+        color: #E29578;
+        text-decoration: underline;
+    }
+
+    .accordion-container {
+    max-width: 800px;
+    margin: 20px auto;
+    }
+
+    details {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden; /* Ensures rounded corners are visible */
+    }
+
+    summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #006d77;
+    color: #E29578;
+    cursor: pointer;
+    user-select: none; /* Prevents text selection on click */
+    }
+
+    summary::after {
+    content: '\25BC'; /* Down arrow icon */
+    transition: transform 0.5s ease;
+    }
+
+    details[open] summary::after {
+    transform: rotate(180deg); /* Rotate arrow when open */
+    }
+
+    .accordion-content {
+    padding: 15px;
+    background-color: #fff;
+    border: 2px solid #E29578;
+    }
+
+    #text-FAQ {
+      text-align: center;
+    }
