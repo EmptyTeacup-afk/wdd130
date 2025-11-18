@@ -1,0 +1,40 @@
+main {
+    text-align: center
+}
+
+#home-page {
+    background: black;
+    text-align: center;
+}
+
+nav {
+    background-color: white;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    padding: 0.3%;
+    color:  black;
+}
+
+nav a:hover {
+    background-color:#FAED59;;
+}
+
+footer {
+    background-color: white;
+
+}
+
+footer a {
+    text-align: center;
+    text-decoration: none;
+    padding: 0.3%;
+       color:  black;
+}
+
+footer a:hover {
+    background-color:#FAED59;;
+}
