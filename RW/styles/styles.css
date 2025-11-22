@@ -1,5 +1,8 @@
 main {
-    text-align: center
+    margin: auto;
+    width: 50%;
+    max-width: 1200px; /* Optional: Sets a max size for large screens */
+    text-align: center;
 }
 
 #home-page {
@@ -37,4 +40,43 @@ footer a {
 
 footer a:hover {
     background-color:#FAED59;;
+}
+
+#landing-hero {
+    max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+    height: auto;    /* Maintains the aspect ratio */
+    display: block;  /* Removes extra space below the image */
+    margin: auto;
+}
+
+/*
+About page
+*/
+
+#about-page {
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+#about-page-reels {
+    width: 100%; /* Change to 100% to fill the main container's width */
+    display: flex; /* Enable Flexbox layout */
+    justify-content: center; /* Center the reels horizontally within the container */
+    gap: 20px; /* Adds space between the reels */
+    margin: 20px auto; /* Adds some vertical margin and centers it */
+    }
+
+/* Add a style rule for the Instagram blockquotes */
+#about-page-reels .instagram-media {
+    /* Override Instagram's inline style to be flexible and smaller */
+    max-width: 25% !important; /* Adjust max width to allow two to fit */
+    width: 25% !important; /* Set a percentage width for responsiveness */
+    min-width: 280px !important; /* Ensure they don't get too small */
+    margin: 0 !important; /* Remove individual margins that might interfere */
+}
+
+#about-page p{
+    border: 1px solid white;
+    padding: 2.5%;
 }
