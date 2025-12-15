@@ -60,6 +60,12 @@ footer a:nth-of-type(2):hover {
     background-color: #FF69B4;
 }
 
+#landing-hero {
+    display: block;       /* Changes image from inline to block */
+    margin-left: auto;    /* Pushes away from left */
+    margin-right: auto;   /* Pushes away from right */
+    max-width: 100%;      /* Ensures it doesn't overflow on small screens */
+}
 
 /*
 About page
